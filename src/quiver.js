@@ -274,7 +274,7 @@ QuiverExport.tikz_cd = new class extends QuiverExport {
                 }\n` : ""
             }\\end{tikzcd}`;
             if (settings.get("export.centre_diagram")) {
-                tikzcd = `\\[${tikzcd}\\]`;
+                tikzcd = `\$\$${tikzcd}\$\$`;
             }
             // URL.
             return `% ${

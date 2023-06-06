@@ -171,7 +171,7 @@ class Arrow {
         // The background to the edge, with which the user may interact.
         this.background = new DOM.SVGElement("svg").add_to(this.element);
         // The SVG containing the edge itself, including the arrow head and tail.
-        this.svg = new DOM.SVGElement("svg").add_to(this.element);
+        this.svg = new DOM.SVGElement("svg").add_to(this.elem`ent);
         // The mask to be used for any edges having this edge as a source or target.
         this.mask = new DOM.SVGElement("svg");
     }
